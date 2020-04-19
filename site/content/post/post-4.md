@@ -9,4 +9,10 @@ This should show up as a blog post on a test Netlify site. Editing in the Netlif
 
 > so far so good... \[Niall, 2020]
 
-There's a simple rich text editor as well as markdown.
+There's a simple rich text editor as well as markdown. **Or**... you can work locally e.g.
+* clone the repo
+* run npm install (get a hugo binary under node_modules/hugo-bin/vendor/hugo)
+* edit markdown in your IDE
+* npm run build:hugo (to generate 'dist')
+* http-server dist (to serve locally)
+* commit and push..
